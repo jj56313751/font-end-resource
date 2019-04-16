@@ -1,3 +1,4 @@
+> css
 ```
 // less语法
 // 一像素边框
@@ -45,6 +46,8 @@
 	}
 }
 
+// 使用样式
+// 下边框
 .border-1px(@color){
 	.media-border;
 	.media-border-x(@color);
@@ -53,6 +56,7 @@
 		bottom:-1px;
 	}
 }
+// 上边框
 .border-top-1px(@color){
 	.media-border;
 	.media-border-x(@color);
@@ -61,6 +65,7 @@
 		top:0;
 	}
 }
+// 左边框
 .border-left-1px(@color){
 	.media-border;
 	.media-border-y(@color);
@@ -69,6 +74,7 @@
 		top:0;
 	}
 }
+// 右边框
 .border-right-1px(@color){
 	.media-border;
 	.media-border-y(@color);
